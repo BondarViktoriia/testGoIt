@@ -5,7 +5,7 @@ import {
     AvatarContainer,
   Avatar,
     AvatarImg,
-  AvatarLine
+  AvatarLine,CardText,FollowingButton,CardTextContainer,FollowButton,ButtonContainer
 } from './Card.styled';
 import logo from '../../images/logo.svg';
 import heroImg from '../../images/hero.png';
@@ -23,7 +23,19 @@ const Card = () => {
                        <AvatarContainer>
                         <AvatarImg src={defaultAvatar} alt="avatar" />
                  </AvatarContainer>
-                </Avatar>
+              </Avatar>
+              <CardTextContainer>
+                     <CardText> 777 tweets</CardText>   
+              <CardText>100,500 Followers</CardText>
+              </CardTextContainer>
+              <ButtonContainer>
+                    <FollowButton>Follow</FollowButton>
+              </ButtonContainer>
+              <ButtonContainer>
+                   <FollowingButton>Following</FollowingButton>
+             </ButtonContainer>
+
+             
       </CardContainer>
     </>
   );
