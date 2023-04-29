@@ -9,7 +9,7 @@ export const CardContainer = styled.div`
   );
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
-   padding: 28px 20px 36px 20px;
+   padding: 28px 0 36px 0;
   width: 380px;
   height: 460px;
 `;
@@ -17,6 +17,7 @@ export const Logo = styled.img`
   width: 76px;
   height: 22px;
   fill: white;
+  margin-left:20px;
 `;
 export const HeroImg = styled.img`
   margin: 0 36px 0 36px;
@@ -52,7 +53,6 @@ export const AvatarLine = styled.div`
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
     inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
   position: absolute;
-  left: 0;
 `;
 
 export const CardText = styled.p`
@@ -101,7 +101,7 @@ border: none;
 
 `
 
-export const FollowButton = styled.div`
+export const FollowButton = styled.button`
 
 display: flex;
 flex-direction: row;
