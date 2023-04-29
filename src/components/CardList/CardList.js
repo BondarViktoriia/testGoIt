@@ -12,7 +12,9 @@ const CardList = ({ users }) => {
   return (
     <CardListBox>
       {users.slice(0, visibleCards).map(user => (
-          <Card key={user.id} id={user.id} avatar={user.avatar} tweets={user.tweets} followers={user.followers } />
+        //   <Card key={user.id} id={user.id} avatar={user.avatar} tweets={user.tweets} followers={user.followers } />
+                    <Card key={user.id} user={user} />
+
       ))}
           {visibleCards < users.length && (
               <LoadMoreContainer>
