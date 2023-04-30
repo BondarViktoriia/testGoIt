@@ -4,20 +4,23 @@ import { fetchUsers } from 'redux/users/usersOperations';
 import { selectUsers } from 'redux/users/usersSelectors';
 import CardList from './CardList/CardList';
 
+import Start from './Start/Start';
+import { Routes, Route } from 'react-router-dom';
+
 export const App = () => {
   const dispatch = useDispatch();
   const users = useSelector(selectUsers);
 
-
-
   useEffect(() => {
- dispatch(fetchUsers());
+    dispatch(fetchUsers());
   }, [dispatch]);
 
-
   return (
-    <div>
-      <CardList users={users}/>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Start />} />
+        <Route path="/cards" element={<CardList users={users} />} />
+      </Routes>
+    </>
   );
 };
