@@ -29,7 +29,7 @@ const Start = () => {
         </SpinnerContainer>
       </InformContainer>
 
-      <NavLink to="/cards">
+      <NavLink to="/tweets">
         {' '}
         <WaveButton>TRY NOW</WaveButton>
       </NavLink>

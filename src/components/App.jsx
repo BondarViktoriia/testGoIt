@@ -19,7 +19,7 @@ export const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Start />} />
-        <Route path="/cards" element={<CardList users={users} />} />
+        <Route path="/tweets" element={<CardList users={users} />} />
       </Routes>
     </>
   );
