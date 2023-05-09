@@ -6,12 +6,12 @@ import {
   InformContainer,
   SpinnerContainer,
   WaveButton,
-} from './Start.styled';
+} from './Home.styled';
 import logo from '../../images/logo.svg';
 import { CircleLoader } from 'react-spinners';
 import { NavLink } from 'react-router-dom';
 
-const Start = () => {
+const Home = () => {
   return (
     <StartContainer>
       <Logo src={logo} alt="logo" />
@@ -37,4 +37,4 @@ const Start = () => {
   );
 };
 
-export default Start;
+export default Home;

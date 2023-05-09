@@ -1,9 +1,9 @@
 import Card from 'components/Card/Card';
-import { CardListBox, LoadMore, LoadMoreContainer,ButtonLink,BackButton } from './CardList.styled';
+import { CardListBox, LoadMore, LoadMoreContainer,ButtonLink,BackButton } from './Tweets.styled';
 import { useState, useEffect } from 'react';
 
 
-const CardList = ({ users }) => {
+const Tweets = ({ users }) => {
   const [visibleCards, setVisibleCards] = useState(
     Number(localStorage.getItem('visibleCards')) || 4
   );
@@ -44,4 +44,4 @@ const CardList = ({ users }) => {
   );
 };
 
-export default CardList;
+export default Tweets;

@@ -2,9 +2,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchUsers } from 'redux/users/usersOperations';
 import { selectUsers } from 'redux/users/usersSelectors';
-import CardList from './CardList/CardList';
+import Tweets from './Tweets/Tweets';
 
-import Start from './Start/Start';
+import Home from './Home/Home';
 import { Routes, Route } from 'react-router-dom';
 
 export const App = () => {
@@ -18,8 +18,8 @@ export const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Start />} />
-        <Route path="/tweets" element={<CardList users={users} />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/tweets" element={<Tweets users={users} />} />
       </Routes>
     </>
   );
