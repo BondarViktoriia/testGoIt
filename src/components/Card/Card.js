@@ -13,7 +13,6 @@ import {
   ButtonContainer,
 } from './Card.styled';
 import logo from '../../images/logo.svg';
-import heroImg from '../../images/hero.png';
 import defaultAvatar from '../../images/defaultAvatar.png';
 import { useState,useEffect } from 'react';
 
@@ -43,7 +42,7 @@ const Card = ({ user }) => {
   return (
     <CardContainer key={id}>
       <Logo src={logo} alt="logo" />
-      <HeroImg src={heroImg} alt="hero" />
+      <HeroImg></HeroImg> 
 
       <Avatar>
         <AvatarLine />
