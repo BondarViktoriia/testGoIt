@@ -1,12 +1,15 @@
 
 
-![logo](https://github.com/BondarViktoriia/tweets/assets/103380251/46ead2a7-7f3e-4477-b9e2-f6b2030ca1cf)
+                                                      ![logo](https://github.com/BondarViktoriia/tweets/assets/103380251/46ead2a7-7f3e-4477-b9e2-f6b2030ca1cf)
 
 
 Мета: створити картки твітів та додати інтерактивності при клікові на кнопку.
-Home Page - ![homePage](https://github.com/BondarViktoriia/tweets/assets/103380251/03798e52-7673-49e2-956d-a324e75ca324)
 
-Tweets Page - ![tweets](https://github.com/BondarViktoriia/tweets/assets/103380251/1e50183a-7203-4237-8666-83cb317c090d)
+                                                         Home Page 
+![homePage](https://github.com/BondarViktoriia/tweets/assets/103380251/03798e52-7673-49e2-956d-a324e75ca324)
+
+                                                         Tweets Page 
+![tweets](https://github.com/BondarViktoriia/tweets/assets/103380251/1e50183a-7203-4237-8666-83cb317c090d)
 
 📌Робота виконана на нативному JS з використанням зборщиків або на React.
 
