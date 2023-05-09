@@ -39,7 +39,21 @@ export const AvatarContainer = styled.div`
   display: flex;
   align-items: center;
   margin: auto;
+  position: relative; 
+  &::before {
+    content: "";
+    height: 8px;
+    width: 380px;
+    background-color: #ebd8ff;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+      inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+  }
 `;
+
+
 
 export const Avatar = styled.div`
   display: flex;
@@ -50,14 +64,6 @@ export const AvatarImg = styled.img`
   border-radius: 50%;
   width: 64px;
   height: 64px;
-  position: absolute;
-`;
-export const AvatarLine = styled.div`
-  height: 8px;
-  width: 380px;
-  background-color: #ebd8ff;
-  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
-    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
   position: absolute;
 `;
 

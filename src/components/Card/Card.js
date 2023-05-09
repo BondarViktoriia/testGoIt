@@ -5,7 +5,6 @@ import {
   AvatarContainer,
   Avatar,
   AvatarImg,
-  AvatarLine,
   CardText,
   FollowingButton,
   CardTextContainer,
@@ -45,7 +44,6 @@ const Card = ({ user }) => {
       <HeroImg></HeroImg> 
 
       <Avatar>
-        <AvatarLine />
         <AvatarContainer>
           {!avatar ? (
             <AvatarImg src={defaultAvatar} alt="avatar" />
