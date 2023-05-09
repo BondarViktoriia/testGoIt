@@ -1,6 +1,6 @@
 
 
-                                                      ![logo](https://github.com/BondarViktoriia/tweets/assets/103380251/46ead2a7-7f3e-4477-b9e2-f6b2030ca1cf)
+![logo](https://github.com/BondarViktoriia/tweets/assets/103380251/46ead2a7-7f3e-4477-b9e2-f6b2030ca1cf)
 
 
 Мета: створити картки твітів та додати інтерактивності при клікові на кнопку.
